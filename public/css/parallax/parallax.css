@@ -1,0 +1,37 @@
+*{
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+    .marginn{
+        margin: 0 0;
+    }
+    .parallax{
+        background: url("../../img/img-parallax.jpg")
+        repeat fixed 100%;
+        opacity:0.7;
+        
+    }
+    .parallax-inner{
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+    .title-parallax{
+        text-align: center;
+        font-size: 380%;
+        color: #FFF;
+        letter-spacing: 3px;
+    }
+    .btn-parallax{
+        text-align: center;
+        margin-left: 42%;
+    }
+    .content-parallax{
+        align-items: flex-start;
+    }
+    @media (max-width:450px){
+        .content-parallax {
+            padding-right: 35%;
+          
+        }
+    }
