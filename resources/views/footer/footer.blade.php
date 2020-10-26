@@ -1,7 +1,5 @@
-<footer class="text-center footer-style">
-    <div class="container">
-        <div class="row">
-            
+<footer class="text-center footer-style footer-content">
+        <div class="row">           
             <div class="col-md-3 footer-col footer-contacto">
                 <h3 class="footer-contactoh3">Contacto</h3>
                 <p>
@@ -13,7 +11,7 @@
 
             <div class="vl"></div>
 
-            <div class="col-md-3 footer-col">
+            <div class="col-md-4 footer-col">
                 <h3>Redes Sociales</h3>
                 <ul class="list-inline">
                     <li>
@@ -28,12 +26,11 @@
             <div class="vl"></div>
 
             <div class="col-md-3 footer-col">
-                <h3>Trabajo FreeLancer</h3>
-                <p>Tengo más de X años de experiencia en maquetación web y me apasiona lo que hago!</p>
-                </div>
+                <h3>Tecnogoo</h3>
+                <p>Desarrollo de software a medida, nos enfocamos en pequeñas empresas, ofreciendole soluciones a un costo muy bajo.</p>
             </div>
-        <div>
+        </div>
+        <div class="derechos">
         	<h1 class="footer-derechos">Copyright © 2019 - 2020 Tecnogoo. Todos los derechos reservados.</h1>
     	</div>
-    </div>
 </footer>
