@@ -69,7 +69,6 @@
                  <button class="btn-send-contact" type="submit" class="btn btn-primary btn-round">Enviar</button>
                </div>
              </div>
-           </form>
            <div class="card-body">
             @if(Session::has('success'))
                <div class="alert alert-success">
@@ -77,6 +76,7 @@
                 </div>
             @endif
          </div>
+        </form>
        </div>
      </div>
    </div>
