@@ -3,7 +3,7 @@
      <div class="col-md-12">
        <div class="card card-user">
          <div class="title-contact">
-           <h1>Contacto</h1>
+           <h2>Contacto</h2>
          </div>
           <form class="form-contact" method="POST" action="{{route('welcome.store')}}" novalidate>
              {{csrf_field()}}
@@ -11,7 +11,7 @@
                <div class="col-md-12">
                  <div class="form-group">
                    <label>Nombre</label>
-                   <input type="text" class="form-control @error('name') is-invalid @enderror" placeholder="ingresa tu Nombre" name="name">
+                   <input type="text" class="form-control @error('name') is-invalid @enderror" placeholder="Ingresa tu nombre" name="name">
                    @error('name')
                        <span class="invalid-feedback" role="alert">
                            <strong>{{ $message }}</strong>
@@ -22,7 +22,7 @@
              <div class="col-md-12">
                <div class="form-group">
                    <label>E-mail</label>
-                   <input type="text" class="form-control @error('email') is-invalid @enderror" placeholder="Ingresa tu E-mail" name="email">
+                   <input type="text" class="form-control @error('email') is-invalid @enderror" placeholder="Ingresa tu e-mail" name="email">
                    @error('email')
                        <span class="invalid-feedback" role="alert">
                            <strong>{{ $message }}</strong>
