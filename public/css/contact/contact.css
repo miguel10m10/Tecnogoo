@@ -1,0 +1,25 @@
+.title-contact{
+    text-align: center;
+    padding-top: 2%;
+  }
+.form-contact{
+  padding-left: 20%;
+  padding-right: 20%;
+}
+@media (max-width:500px){
+  .form-contact{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+}
+.btn-send-contact{
+  background-color: #04204e;
+  color: white;
+  font-size: 18px;
+  margin: 4px 2px;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 12px;
+}

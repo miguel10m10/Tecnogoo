@@ -2,8 +2,10 @@
    <div class="row">
      <div class="col-md-12">
        <div class="card card-user">
+         <div class="title-contact">
            <h1>Contacto</h1>
-          <form method="POST" action="{{route('welcome.store')}}" novalidate>
+         </div>
+          <form class="form-contact" method="POST" action="{{route('welcome.store')}}" novalidate>
              {{csrf_field()}}
              <div class="row">
                <div class="col-md-12">
@@ -64,7 +66,7 @@
              </div>
              <div class="row">
               <div class="update ml-auto mr-auto">
-                 <button type="submit" class="btn btn-primary btn-round">Send</button>
+                 <button class="btn-send-contact" type="submit" class="btn btn-primary btn-round">Enviar</button>
                </div>
              </div>
            </form>
