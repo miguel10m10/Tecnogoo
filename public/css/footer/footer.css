@@ -1,12 +1,19 @@
+.footer-content{
+  padding-left: 20%;
+  padding-right: 15%;
+  padding-top: 2%;
+}
+.derechos{
+  padding-left: 0%;
+  padding-right: 20%;
+}
 .footer-style {
-    padding-top: 50px;
     background-color: #04204e;
 }
 .fa {
   padding: 15px;
   font-size: 25px;
   width: 50px;
-  text-align: center;
   text-decoration: none;
 }
 .fa-facebook {
@@ -28,7 +35,8 @@
 .footer-derechos{
 	font-size: 15px;
 	padding: 10px;
-	font-weight: lighter;
+  font-weight: lighter;
+  text-align: center;
 }
 @media (min-width:900px){
 .vl {
@@ -36,28 +44,18 @@
   height: 150px;
 }
 }
-.footer-contacto{
-    margin-left: 11%;
-}
     footer {
         color: white;
     }
 
     footer h3 {
-        margin-bottom: 30px;
         font-weight: 800;
     }
 
     footer .footer-above {
-        padding-top: 50px;
         background-color: #2C3E50;
     }
 
-    footer .footer-col {
-        margin-bottom: 50px;
-    }
-
     footer .footer-below {
-        padding: 25px 0;
         background-color: #233140;
     }
