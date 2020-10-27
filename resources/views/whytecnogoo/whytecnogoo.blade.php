@@ -31,7 +31,7 @@
 }
     </style>
 
-<div class="title-whytecnogoo">
+<div class="title-whytecnogoo" id="pqtecnogoo">
     <h2>¿Por qué Tecnogoo?</h2>
 </div>
 <div class="card-columns">
