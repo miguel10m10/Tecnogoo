@@ -4,7 +4,7 @@
 				<div class="col-xs-12 col-sm-4 col-md-4">
 					<h5>Clientes</h5>
 					<ul class="list-unstyled quick-links">
-                        <li><a><i class="fa fa-angle-double-right"></i>Inicio</a></li>
+                        <li><a href="/"><i class="fa fa-angle-double-right"></i>Inicio</a></li>
                         <li><a><i class="fa fa-angle-double-right"></i>Clientes</a></li>
 						<li><a><i class="fa fa-angle-double-right"></i>FAQ</a></li>
 					</ul>
@@ -12,8 +12,9 @@
 				<div class="col-xs-12 col-sm-4 col-md-4">
 					<h5>Enlaces</h5>
 					<ul class="list-unstyled quick-links">
-						<li><a><i class="fa fa-angle-double-right"></i>Quienes somos</a></li>
+						<li><a href="#pqtecnogoo"><i class="fa fa-angle-double-right"></i>Quienes somos</a></li>
 						<li><a><i class="fa fa-angle-double-right"></i>Servicios</a></li>
+						<li><a href="#contacto"><i class="fa fa-angle-double-right"></i>Contacto</a></li>
 					</ul>
 				</div>
 				<div class="col-xs-12 col-sm-4 col-md-4">

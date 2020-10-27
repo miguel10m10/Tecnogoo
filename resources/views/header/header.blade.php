@@ -2,7 +2,7 @@
 
 <nav class="mb-1 navbar navbar-expand-lg navbar-dark info-color bg-dark smart-scroll">
 	<div class="container">
-  <a class="navbar-brand" href="#">TecnoGOO</a>
+  <a class="navbar-brand" href="/">TecnoGOO</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4"
     aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -16,15 +16,15 @@
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#qsomos">
-          <i class="fab fa-qsomos"></i> Quienes somos</a>
+        <a class="nav-link" href="#pqtecnogoo">
+          <i class="fab fa-qsomos"></i> ¿Por qué Tecnogoo?</a>
       </li>
             <li class="nav-item">
         <a class="nav-link" href="#">
           <i class="fab fa-clientes"></i> Clientes</a>
       </li>
             <li class="nav-item">
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="#contacto"> 
           <i class="fab fa-contacto"></i> Contacto</a>
       </li>
     </ul>
@@ -32,7 +32,7 @@
 </div>
 </nav>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
   // add padding top to show content behind navbar
   $('body').css('padding-top', $('.navbar').outerHeight() + 'px')
@@ -51,32 +51,4 @@
           last_scroll_top = scroll_top;
       });
   }
-  </script>
-  <script>
-  $(document).ready(function(){
-    // Add smooth scrolling to all links
-    $("a").on('click', function(event) {
-  
-      // Make sure this.hash has a value before overriding default behavior
-      if (this.hash !== "") {
-        // Prevent default anchor click behavior
-        event.preventDefault();
-  
-        // Store hash
-        var hash = this.hash;
-  
-        // Using jQuery's animate() method to add smooth page scroll
-        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-        $('html, body').animate({
-          scrollTop: $(hash).offset().top
-        }, 800, function(){
-     
-          // Add hash (#) to URL when done scrolling (default click behavior)
-          window.location.hash = hash;
-        });
-      } // End if
-    });
-  });
-  
-  
   </script>
