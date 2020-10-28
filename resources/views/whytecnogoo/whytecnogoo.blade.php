@@ -10,7 +10,6 @@
 }
 .card-interna{
     background-color: white;
-    border: 0;
 
 }
 .card-text{
@@ -23,7 +22,7 @@
     height: 5%;
     width: 5%;
     font-size: 92px;
-    color:darkblue;
+    color:black;
     padding-right: 28%;
 }
 .text-parrafo{
