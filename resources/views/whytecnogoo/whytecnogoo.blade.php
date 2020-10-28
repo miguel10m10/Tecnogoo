@@ -10,7 +10,7 @@
 }
 .card-interna{
     background-color: white;
-
+    border:0;
 }
 .card-text{
     color: black;
