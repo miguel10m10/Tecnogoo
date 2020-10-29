@@ -10,6 +10,8 @@
           <link rel="stylesheet" href="css/contact/contact.css">
           <link rel="stylesheet" href="css/footer/footer.css">
           <link rel="stylesheet" href="css/header/header.css">
+		  <link rel="stylesheet" href="css/service/service.css">
+          <link rel="stylesheet" href="css/client/client.css">
           <link rel="stylesheet" href="css/whytecnogoo/whytecnogoo.css">
           <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
           <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
@@ -24,8 +26,9 @@
             <div class="wrapper">
                 @include('header/header')
                <div class="content">
-                @include('whytecnogoo/whytecnogoo')
-                @include('contact/contact')        
+                @include('whytecnogoo/whytecnogoo') 
+                @include('client/client')
+                @include('contact/contact')				
                 @include('footer/footer')
                </div>
             </div>

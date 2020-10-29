@@ -1,0 +1,52 @@
+.card-service {
+    width: 55%;
+    margin-right: 30%;
+    
+   
+}
+
+
+
+
+
+.center {
+    margin: 20px;
+    width: 60%;
+    padding: 10px;
+}
+
+.container-cards {
+    display: flex;
+    align-items: stretch;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.line {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 50%;
+}
+
+.card-img-top-img1 {
+    width: 50%;
+    height: 50%;
+    /*text-align: center;*/
+    transform-origin: 50% 65%;
+  transition: transform 0.5s, filter 3s ease-in-out;
+  filter: brightness(150%);
+}
+
+.card-img-top-img1:hover {
+    filter: brightness(100%);
+  transform: scale(1.5);
+}
+
+.cardImg1 {
+    text-align: center;
+    align-content: center;
+    
+}
+
