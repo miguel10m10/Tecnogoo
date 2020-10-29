@@ -26,10 +26,9 @@
             <div class="wrapper">
                 @include('header/header')
                <div class="content">
-                @include('whytecnogoo/whytecnogoo')
-				@include('client/client') 
-                @include('contact/contact')
-				@include('servicio/service') 				
+                @include('whytecnogoo/whytecnogoo') 
+                @include('client/client')
+                @include('contact/contact')				
                 @include('footer/footer')
                </div>
             </div>
