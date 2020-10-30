@@ -30,11 +30,11 @@
                 <img class="img-fluid mx-auto d-block" src="img/clientsImg/iumo1.png" alt="slide 8">
             </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+        <a class="carousel-control-prev" role="button" data-slide="prev" data-target="#carouselExample">
             <i class="fa fa-chevron-left fa-lg text-muted"></i>
             <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next text-faded" href="#carouselExample" role="button" data-slide="next">
+        <a class="carousel-control-next text-faded"  role="button" data-slide="next" data-target="#carouselExample">
             <i class="fa fa-chevron-right fa-lg text-muted"></i>
             <span class="sr-only">Next</span>
         </a>
