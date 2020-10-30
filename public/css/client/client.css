@@ -100,4 +100,10 @@
         padding-top: 7%;
     }
 
+    @media (max-width:500px){
+        .carousel-inner {
+            padding-left: 10%;
+        }
+    }
+
     
