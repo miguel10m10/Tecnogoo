@@ -88,11 +88,16 @@
     @media (max-width:770px){
         .carousel-inner {
         padding-left: 0;
+        margin-left: 0;
+        margin-right: 0;
         padding-right: 0;
         align-items: center;
         text-align: center;
+        height: 200px;
     }
     }
     .finalclients{
         padding-top: 7%;
     }
+
+    
