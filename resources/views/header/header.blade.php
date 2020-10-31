@@ -4,7 +4,7 @@
         <i class="fa fa-bars fa-2x"></i>
      </div>
      <div class="logo">
-        LOGO
+        Tecnogoo
      </div>
      <div class="menu">
         <ul>
