@@ -20,20 +20,19 @@
 				<div class="col-xs-12 col-sm-4 col-md-4">
 					<h5>Información de contacto</h5>
 					<ul class="list-unstyled quick-links">
-						<li><a><i class="fa fa-angle-double-right"></i>(11) +56872828</a></li>
-						<li><a><i class="fa fa-angle-double-right"></i>(56) +911232332)</a></li>
-                        <li><a><i class="fa fa-angle-double-right"></i>info@tecnogoo.com</a></li>
-                        <li><a><i class="fa fa-angle-double-right"></i>hola@tecnogoo.com</a></li>
+						<li><a><i class="fa fa-angle-double-right"></i>(+54) 91156872828</a></li>
+						<li><a><i class="fa fa-angle-double-right"></i>(+56) 91176272626)</a></li>
+                        <li><a><i class="fa fa-angle-double-right"></i>contacto@tecnogoo.com</a></li>
 					</ul>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
 					<ul class="list-unstyled list-inline social text-center">
-						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-facebook"></i></a></li>
-						<li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-twitter"></i></a></li>
-                        <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-instagram"></i></a></li>
-                        <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-linkedin"></i></a></li>
+						<li class="list-inline-item"><a href=""><i class="fa fa-facebook"></i></a></li>
+						<li class="list-inline-item"><a href=""><i class="fa fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href=""><i class="fa fa-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href=""><i class="fa fa-linkedin"></i></a></li>
 					</ul>
 				</div>
 				<hr>
